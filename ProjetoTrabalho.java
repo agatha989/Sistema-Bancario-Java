@@ -42,75 +42,75 @@ public class ProjetoTrabalho {
         System.out.println("====================");
 
         do {
-            System.out.print("Usuário: ");
+            System.out.print("User: ");
             nome = sc.nextLine().trim().toUpperCase(Locale.ROOT);
 
-            System.out.print("Senha: ");
+            System.out.print("Password: ");
             senha = sc.nextLine().trim();
 
             if (nome.equals(USUARIO_CORRETO) && senha.equals(SENHA_CORRETA)) {
                 System.out.println("\n=======================");
-                System.out.println("= Login bem-sucedido! =");
-                System.out.println("===== Bem-vindo! ======");
+                System.out.println("===== Login Done! =====");
+                System.out.println("====== Welcome! =======");
                 System.out.println("=======================");
 
-                System.out.println("\n===============================");
-                System.out.println("=== SISTEMA DE FUNCIONÁRIOS ===");
-                System.out.println("===============================");
+                System.out.println("\n==================================");
+                System.out.println("=== EMPLOYEE MANAGEMENT SYSTEM ===");
+                System.out.println("==================================");
 
-                do {System.out.println("\nEscolha uma opção:");
+                do {System.out.println("\nChoose an option:");
                     System.out.println("1 - " + Func1);
                     System.out.println("2 - " + Func2);
                     System.out.println("3 - " + Func3);
-                    System.out.println("0 - Sair do sistema");
-                    System.out.print("\nDigite o número da opção: ");
+                    System.out.println("0 - Exit the system");
+                    System.out.print("\nChoose the option number: ");
 
                     opcao = sc.nextLine().trim();
 
                     switch (opcao) {
                         case "1":
                             System.out.println("\n\n================================");
-                            System.out.println("====== FUNCIONÁRIO PADRÃO ======");
+                            System.out.println("====== STANDARD EMPLOYEE =======");
                             System.out.println("================================");
-                            System.out.println("\nNOME: " + Func1 + "\nMATRICULA:" + matri1 + "\nSALÁRIO: " + Sal1);
+                            System.out.println("\nNAME: " + Func1 + "\nEMPLOYEE ID: " + matri1 + "\nSALARY: " + Sal1);
                             System.out.println("\n================================");
 
                             break;
                         case "2":
                             System.out.println("\n\n=====================================");
-                            System.out.println("====== FUNCIONÁRIO DE COMISSÃO ======");
+                            System.out.println("======== COMMISSION EMPLOYEE ========");
                             System.out.println("=====================================");
-                            System.out.println("\nNOME: " + Func2 + "\nMATRICULA:" + matri2 + "\nVENDAS: " + vendas + "\nPORCETAGEM: "+ porc + "\nSALÁRIO: " + Sal2);
+                            System.out.println("\nNAME: " + Func2 + "\nEMPLOYEE ID: " + matri2 + "\nSALES: " + vendas + "\nCOMMISSION RATE: "+ porc + "\nSALARY: " + Sal2);
                             System.out.println("\n=====================================");
 
                             break;
                         case "3":
                             System.out.println("\n\n====================================");
-                            System.out.println("====== FUNCIONÁRIO DE PRODUÇÃO ======");
+                            System.out.println("======== PRODUCTION EMPLOYEE =======");
                             System.out.println("====================================");
-                            System.out.println("\nNOME: " + Func3 + "\nMATRICULA: " + matri3 + "\nBÔNUS POR PRODUTIVIDADE: " + valpec + " X " + quant + "\nSALÁRIO: " + Sal3);
+                            System.out.println("\nNAME: " + Func3 + "\nEMPLOYEE ID: " + matri3 + "\nPRODUCTION BONUS: " + valpec + " X " + quant + "\nSALARY: " + Sal3);
                             System.out.println("\n====================================");
 
                             break;
                         case "0":
-                            System.out.println("\n\n=============================");
-                            System.out.println("========= ATÉ LOGO! =========");
-                            System.out.println("====== ENCERRANDO. . . ======");
-                            System.out.println("=============================");
+                            System.out.println("\n\n=================================");
+                            System.out.println("========= SEE YOU SOON! =========");
+                            System.out.println("========= Ending . . . ==========");
+                            System.out.println("=================================");
                             break;
                         default:
                             System.out.println("\n\n==============================");
-                            System.out.println("======= OPÇÃO INVÁLIDA =======");
+                            System.out.println("======= INVALID OPTION =======");
                             System.out.println("==============================");
                             break;
                     }
                 } while (!opcao.equals("0"));
 
             } else {
-                System.out.println("\n================================");
-                System.out.println("======== ACESSO NEGADO =========");
-                System.out.println("=== NOME OU SENHA INCORRETOS ===");
-                System.out.println("================================\n");
+                System.out.println("\n==================================");
+                System.out.println("========= ACESSO NEGADO ==========");
+                System.out.println("=== NAME OR PASSWORD INCORRECT ===");
+                System.out.println("==================================\n");
             }
         } while (!nome.equals(USUARIO_CORRETO) || !senha.equals(SENHA_CORRETA));
 
