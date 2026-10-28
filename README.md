@@ -1,23 +1,23 @@
-# 🏦 Sistema Bancário em Java
+# 🏦 Java Banking System
 
-> Aplicação desenvolvida para simular operações bancárias essenciais em Java.
+> An application developed to simulate essential banking operations using Java.
 
-## 📌 Sobre o Projeto
-Este projeto foi criado como parte dos meus estudos em Ciência da Computação para aprender Java. 
-O programa simula o funcionamento básico de um sistema bancário, permitindo gerenciar contas e realizar transações.
+## 📌 About the Project
+This project was created as part of my Computer Science studies to learn Java. 
+The program simulates the basic workflow of a banking system, allowing account management and transactions.
 
-## ⚙️ Funcionalidades
-- [x] Criação e gerenciamento de contas
-- [x] Depósitos e saques com verificação de saldo
-- [x] Transferências entre contas
-- [x] Consulta de extrato / saldo
+## ⚙️ Features
+- [x] Account creation and management
+- [x] Deposits and withdrawals with balance verification
+- [x] Transfers between accounts
+- [x] Balance and statement lookup
 
-## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Java (JDK 11+)
+## 🛠️ Technologies Used
+- **Language:** Java (JDK 11+)
 - **IDE:** VS Code 
 
-## 🚀 Como Executar o Projeto
+## 🚀 How to Run the Project
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone [https://github.com/agatha989/sistema-bancario-java.git](https://github.com/agatha989/sistema-bancario-java.git)
