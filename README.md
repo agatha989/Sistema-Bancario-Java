@@ -3,7 +3,7 @@
 > Aplicação desenvolvida para simular operações bancárias essenciais em Java.
 
 ## 📌 Sobre o Projeto
-Este projeto foi criado como parte dos meus estudos em Ciência da Computação para praticar a construção de sistemas orientados a objetos. 
+Este projeto foi criado como parte dos meus estudos em Ciência da Computação para aprender Java. 
 O programa simula o funcionamento básico de um sistema bancário, permitindo gerenciar contas e realizar transações.
 
 ## ⚙️ Funcionalidades
