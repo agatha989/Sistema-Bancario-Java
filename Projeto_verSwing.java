@@ -45,20 +45,20 @@ public class Projeto_verSwing {
                     while (executando) {
                         String opcao = JOptionPane.showInputDialog(null, "=== EMPLOYEE MANAGEMENT SYSTEM ===\nChoose an option:" +
                                 "\n1 - " + Func1 + " (Base Salary)\n2 - " + Func2 + " (Salary + Commission)" +
-                                "\n3 - " + Func3 + " (Salary + BBonus)\n0 - Exit\n\nEnter the option number:", "Employee Menu", 3);
+                                "\n3 - " + Func3 + " (Salary + Bonus)\n0 - Exit\n\nEnter the option number:", "Employee Menu", 3);
                         if (opcao != null && !opcao.trim().isEmpty()) {
                             switch (opcao.trim()) {
                                 case "1":
-                                    JOptionPane.showMessageDialog( null, "✅ EMPLOYEE 1\nName: " +Func1 +
+                                    JOptionPane.showMessageDialog( null, "✅ STANDARD EMPLOYEE\nName: " +Func1 +
                                             "\nEmployee ID: "+matri1+"\nSalary: R$"+String.format("%.2f", Sal1), Func1, 1);
                                     break;
                                 case "2":
-                                            JOptionPane.showMessageDialog(null, "✅ EMPLOYEE 2\nName: "+Func2+
+                                            JOptionPane.showMessageDialog(null, "✅ COMMISSION EMPLOYEE\nName: "+Func2+
                                             "\nEmployee ID: "+matri2+"\nSales: R$ " + String.format("%.2f", vendas) + " x " + String.format("%.2f", porc) + "\nCommission: R$ " +
                                             String.format("%.2f", vendas * porc) + "\nTotal Salary: R$ " + String.format("%.2f", Sal2), "Julia Pinheiro", 1);
                                     break;
                                 case "3":
-                                    JOptionPane.showMessageDialog(null, "✅ EMPLOYEE 3\nName: "+Func3+
+                                    JOptionPane.showMessageDialog(null, "✅ PRODUCTION EMPLOYEE\nName: "+Func3+
                                             "\nEmployee ID: " +matri3+ "\nProductivity Bonus: R$ "+String.format("%.2f", Sal3 - Sal1)+"\nTotal Salary: R$ "
                                             + String.format("%.2f", Sal3), "Alexandro Queiroz", 1);
                                     break;
